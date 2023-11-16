@@ -17,3 +17,7 @@ ViT（Vision Transformer）とは、Transformerをimage classificationなどの�
 
 4. **MLP Head**
     - MLPはMulti Layer Perceptronのこと。Softmaxしてクラス予測を行う。
+
+# **Reference**
+paper https://arxiv.org/pdf/2010.11929.pdf  
+github https://github.com/google-research/vision_transformer

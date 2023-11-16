@@ -17,6 +17,6 @@
 4. **Add & Norm**
    - ResNetなどで用いられる残差接続と同様に、AttentionをスキップしたベクトルをAttentionを適用したベクトルに加算する。NormはLayer Normalizationであり、レイヤーごとに正規化を行う。
 
-# 参考
-論文 https://arxiv.org/pdf/1706.03762.pdf  
+# **Reference**
+paper https://arxiv.org/pdf/1706.03762.pdf  
 解説 https://deeplearning.hatenablog.com/entry/transformer
