@@ -1,5 +1,5 @@
 # **Transformer**
-最近主流の言語モデルに採用されているアーキテクチャ。かつて言語処理ではRNNをベースとしたモデルが採用されていたが、並列処理や長期記憶の実現が計算量などの観点から困難であるという問題点があった。そのため、並列処理が可能であり大規模なデータを効率的に処理できるTransformerが主流になった。RNNでは「現在の単語の次にはどの単語が来るか」を学習することで予測を行っていたが、Transformerでは「どの単語を注目すると次の単語が予測できるか」をAttentionによって学習する。Text Classification、Q&A、Summarization、Image2Text、Image Classification、Instructionなど様々なタスクに適用できる。BERT、GPT、CLIP、BLIPなど様々なモデルに採用されている。
+最近主流の言語モデルにはたいてい採用されているアーキテクチャ。かつて言語処理の分野ではRNNをベースとしたモデルが採用されていた。しかし、RNNでは系列データを順番に処理するという性質があり並列処理が難しく、計算効率が低かった。また、長い文脈において長期的な依存関係を学習することが困難であり、勾配消失や爆発などの問題があった。これらの問題を解決するため、柔軟で拡張性もあり、並列処理が容易で、Self-Attentionによって長い依存関係を効果的に学習できるTransformerが発展してきた。Transformerは非常に柔軟なアーキテクチャであり、自然言語処理の分野ではMachine Translation、Text Summarization、Q&A、Text Generation、Text Classification、画像処理の分野ではImage captioning、Object detection、Image generationなど様々なタスクに適用できる。
 
 # **Architecture**
 ![Architecture](https://cdn-ak.f.st-hatena.com/images/fotolife/R/Ryobot/20171221/20171221163853.png)

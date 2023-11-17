@@ -1,5 +1,5 @@
 # **CLIP（Contrastive Language-Image Pretraining）**
-2021年にOpenAIから発表されたモデル。言語と画像の間の相互作用を理解し、異なるタスクで利用することを目的としている。Image Classification、Image to text、zero shot learningなど様々なタスクに適用可能である。
+2021年にOpenAIから発表されたモデル。言語と画像の間の相互作用を理解し、異なるタスクで利用することを目的としている。Image Classification、Image to text、Zero shot learningなど様々なタスクに適用可能である。
 
 # **Architecture**
 ![](https://github.com/openai/CLIP/raw/main/CLIP.png)

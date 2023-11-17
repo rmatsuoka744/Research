@@ -20,4 +20,5 @@ ViT（Vision Transformer）とは、Transformerをimage classificationなどの�
 
 # **Reference**
 paper https://arxiv.org/pdf/2010.11929.pdf  
-github https://github.com/google-research/vision_transformer
+github https://github.com/google-research/vision_transformer  
+解説 https://deepsquare.jp/2020/10/vision-transformer/
