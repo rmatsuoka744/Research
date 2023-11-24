@@ -5,6 +5,6 @@
 - [Vision Transformer](ViT.md)
 - [CLIP](CLIP.md)
 - BERT
-- GPT
+- [GPT](GPT.md)
 - CNN
 - [MobileNet](MobileNet.md)
