@@ -6,5 +6,8 @@
 - [CLIP](CLIP.md)
 - BERT
 - [GPT](GPT.md)
+- [LoRA](LoRA.md)
+- [StableDiffusion](StableDiffusion.md)
+- [SDXL-Turbo](SDXL-Turbo.md)
 - CNN
 - [MobileNet](MobileNet.md)
